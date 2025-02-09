@@ -1,0 +1,330 @@
+body{
+    font-family: "Alata", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* font-weight: 600; */
+}
+.Total-web {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 25px auto;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 74px;
+
+}
+.mail{
+    border: 1px solid black;
+    height: 30px;
+    width: 210px;
+    margin-left: 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.emailInNav{
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.leftN{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cv{
+    background-color: black;
+    color: white;
+    height: 31px;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.cv:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+.rightN{
+    display: flex;
+    gap: 15px;
+}
+.links{
+    display: flex;
+    border: 1px solid black;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    /* margin-top: 15px; */
+    border-radius: 10px;
+    font-size: 16px;
+    /* margin-bottom: 21px; */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.links:hover {
+    background-color: black;
+    color: white;
+}   
+.AboutLi{
+    margin-left: 9px;
+    width: 90px;
+
+}
+.ProjectLi{
+    width: 98px;
+}
+.ExperienceLi{
+    width: 112px;
+}
+.ServicesLi{
+    width: 85px;
+}
+.experience{
+    margin-top: 12px;
+}
+.services{
+    margin-top: 12px;
+}
+.about{
+    margin-top: 12px;
+}
+.project{
+    margin-top: 12px;
+}
+.hero{
+    display: flex;
+    height: 75vh;
+}
+
+.leftH{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .leftN {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .rightN {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mail {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        margin: 15px auto;
+    }
+
+    .links {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    .rightN {
+        gap: 10px;
+    }
+}
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rightH {
+        align-items: center;
+    }
+
+    .Profimg {
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .im, .quali {
+        font-size: 35px;
+    }
+
+    .SocialM {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .Profimg {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .im, .quali {
+        font-size: 28px;
+    }
+
+    .Contact {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+.Profimg{
+    width: 446px;
+    height: 446px;
+    border-radius: 100px;
+    margin-left: 115px;
+    margin-top: 100px;
+    object-fit: cover;
+    object-position: top;
+    object-position: right;
+    /* width: 100%;
+    height: auto; */
+    /* transform: translateY(-100%); */
+}
+
+.Name1{
+    width: 231px;
+    height: 36px;
+    background-color: #E6EDF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 10%;
+    margin-left: 220px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 624px;
+}
+.im{
+    font-size: 45px;
+    margin-left: 216px;
+    margin-top: 145px;
+}
+span{
+    letter-spacing: 11%;
+}
+.free{
+    text-align: center;
+    margin-left: 215px;
+}
+.quali{
+    font-size: 45px;
+    margin-left: 103px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.SocialM{
+    width: 295px;
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 11px;
+    margin-left: 294px;
+    display: flex;
+}
+.vr-line{
+    width: 1px;
+    height: 35px;
+    background-color: black;
+    margin-left: 60px;
+    margin-top: 6px;
+}
+.Contact{
+    width: 242px;
+    height: 58px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    margin-left: 324px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+.Contact::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+    z-index: -1;
+}
+.Contact:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Contact:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.Contact:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.hero{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+.services-section{
+    height: 794px;
+    border: 1px solid black;
+    border-radius: 48px;
+}
